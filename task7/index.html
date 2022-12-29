@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+</head>
+
+<body>
+    <form action="a.html" method="POST"> 
+        <label>Username</label><br>
+        <input type="text" required placeholder="Enter Your UserName" name="username">
+        <hr>
+        <label>Password</label><br>
+        <input type="password"  placeholder="Enter Your Password" name="password">
+        <hr>
+        <label>Mobile</label><br>
+        <input type="tel" id="phone" placeholder="+96407717875487" name="phone" pattern="[+]{1}[0-9]{14}">
+        <hr>
+        <label>E-mail</label><br>
+        <input type="email" required placeholder="Enter Your E-mail" name="e-mail">
+        <hr>
+        <label>Subject:</label><br>
+        <input type="text" list="my-list" placeholder="Choose one of the topics" name="prog lang">
+        <datalist id="my-list">
+            <option value="C#"></option>
+            <option value="C++"></option>
+            <option value="Php"></option>
+        </datalist>
+        <hr>
+       <input type="hidden" id="custId" name="custId" value="3487">
+       
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
+ 
