@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task8</title>
+</head>
+
+<body>
+    <form action="a.html" method="POST">
+        <label for="user">Username</label><br>
+        <input type="text" id="user" name="username" value="Naba" readonly>
+        <hr>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" placeholder="Enter Your E-mail" name="e-mail">
+        <hr>
+        <label for="pass">Password</label><br>
+        <input type="password" id="pass" minlength="5" maxlength="5" required placeholder="Enter Your Password"
+            name="password">
+        <hr>
+         
+        <input type="hidden" id="custId" name="id" value="3487">
+        <h3>Please select your favorite OS:</h3>
+
+        <input type="radio" name="choose" id="Windows">
+        <label for="Windows">Windows</label>
+        <br>
+        <input type="radio" name="choose" id="linux">
+        <label for="linux">linux</label>
+        <br>
+        <input type="radio" name="choose" id="Mac">
+        <label for="Mac">Mac</label>
+        <br>
+        <br>
+
+        <hr>
+        <h3>Choose The Language you Know</h3>
+        <input type="checkbox" name="C++" id="C++">
+        <label for="C++">C++</label>
+        <br>
+        <input type="checkbox" name="php" id="php">
+        <label for="php">Php</label>
+        <br>
+        <input type="checkbox" name="python" id="python">
+        <label for="python">python</label>
+        <br>
+        <hr>
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>
